@@ -1,0 +1,128 @@
+.book-details-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #555;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.back-button:hover {
+  color: #000;
+}
+
+.book-details-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.book-cover {
+  flex: 1 1 300px;
+  max-width: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.book-info {
+  flex: 2 1 400px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.book-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.book-tags {
+  margin-bottom: 20px;
+}
+
+.book-tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #555;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  transition: background 0.3s;
+}
+
+.book-tag:hover {
+  background-color: #ddd;
+}
+
+.download-button {
+  align-self: start;
+  padding: 12px 25px;
+  background-color: #4facfe;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.download-button:hover {
+  background-color:#2266a2;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .book-details-card {
+    flex-direction: column;
+  }
+
+  .book-cover {
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+  }
+
+  .book-info {
+    padding: 20px;
+  }
+}
