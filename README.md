@@ -1,12 +1,39 @@
-# React + Vite
+# Books App 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React app built with **Vite** to browse, view, and search books. This project is deployed on **GitHub Pages**.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://rafaaa4.github.io/books/](https://rafaaa4.github.io/books/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Browse a list of books
+- View detailed information for each book
+- Search for books by title
+- Contact page with form functionality
+- Responsive design for desktop and mobile
+- Modern UI built with React and CSS
+
+---
+
+## 🛠️ Technologies Used
+
+- **React 19**
+- **Vite** for fast build and development
+- **React Router DOM** for navigation
+- **Boxicons** and **Font Awesome** for icons
+- **EmailJS** for sending messages from the contact form
+- **GitHub Pages** for deployment
+
+---
+
+## 💻 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Rafaaa4/books.git
+cd books
